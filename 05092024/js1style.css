@@ -1,0 +1,17 @@
+*{
+    margin:20px;
+}
+body{
+    text-align: center;
+}
+#container{
+    margin:auto auto;
+    border:1px solid black;
+    width:500px;
+    height:500px;
+    text-align:center;
+}
+#bt1,#bt2,#bt3{
+    margin:5px;
+    padding:5px;
+}

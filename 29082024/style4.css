@@ -1,0 +1,33 @@
+*{
+    margin:0;
+}
+.container{
+    width:1280px;
+    margin:0 auto;
+}
+.layout{
+    display:flex;
+}
+.column
+{
+    display:flex;
+    flex-direction:column;
+    height:700px;
+    width:500px;
+}
+div{
+    bordeR:1px solid black;
+    margin:5px;
+    padding:5px;
+}
+.box1{flex-basis:5%}
+.box2{flex-basis:10%}
+.box3{flex-basis:15%}
+.box4{flex-basis:17%}
+.box5{flex-basis:18%}
+.box6{flex-basis:23%}
+.box7{flex-basis:33%}
+.box8{flex-basis:34%}
+.box9{flex-basis:40%}
+.box10{flex-basis:45%}
+.box11{flex-basis:60%}

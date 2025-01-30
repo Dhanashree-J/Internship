@@ -1,0 +1,29 @@
+*{
+    margin:0;
+}
+.content{
+    flex-basis:390px;
+    height:300px;
+    border:1px solid black;
+    margin:5px;
+    
+}
+.container div:nth-of-type(2)
+{
+    flex-basis:790px;
+}
+.container div:nth-of-type(3)
+{
+    flex-basis:790px;
+}
+
+.container
+{
+    max-width:1220px;
+    margin:0 auto;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}

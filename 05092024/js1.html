@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="js1style.css">
+    </head>
+    <body>
+        <button id="btn1">Button1</button>
+        <button id="btn2">Button2</button>
+        <button id="btn3">Button3</button>
+        <div id="container"></div>
+        <script>
+            let bt1=document.getElementById("btn1");
+            bt1.addEventListener("click",fun1);
+            let bt2=document.getElementById("btn2");
+            bt2.addEventListener("click",fun2);
+            let bt3=document.getElementById("btn3");
+            bt3.addEventListener("click",fun3);
+            function fun1()
+            {
+                document.getElementById("container").innerHTML=bt1.innerHTML;
+                document.getElementById("container").style="background-color:red";
+            }
+            function fun2()
+            {
+                document.getElementById("container").innerHTML=bt2.innerHTML;
+                document.getElementById("container").style="background-color:blue";
+            }
+            function fun3()
+            {
+                document.getElementById("container").innerHTML=bt3.innerHTML;
+                document.getElementById("container").style="background-color:black;color:white";
+            }
+        </script>
+    </body>
+</html>

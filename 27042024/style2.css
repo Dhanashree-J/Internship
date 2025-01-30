@@ -1,0 +1,29 @@
+*{
+    margin:0;
+}
+.right{
+    position:fixed;
+    float:right;
+    right:40px;
+    top:60px;
+    width:200px;
+}
+.container{
+    width:1280px;
+    margin:0 auto;
+}
+header{
+    text-align:center;
+    height:50px;
+}
+.left-content{
+    float:left;
+    width:calc(100% - 200px);
+}
+.content{
+    display:flex;
+}
+.left-content h2{
+    position:sticky;
+    top:0px;
+}

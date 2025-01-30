@@ -1,0 +1,186 @@
+*{
+    margin:0;
+}
+.main-container{
+    max-width:1130px;
+    margin:0 auto;
+}
+@font-face{
+        font-family: 'Zoho Puvi Bold'; 
+        src: url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_bold.eot'); /* IE9 Compat Modes */ 
+        src: url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+        url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_bold.woff2') format('woff2'), /* Modern Browsers */ 
+        url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_bold.woff') format('woff'), 
+        url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_bold.ttf') format('truetype'); /* Safari, Android, iOS */ 
+        font-style: normal; font-weight: 600; text-rendering: optimizeLegibility;
+}
+@font-face { 
+    font-family: 'ZohoPuvi'; 
+    src: url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_regular.eot'); /* IE9 Compat Modes */ 
+    src: url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_regular.woff2') format('woff2'), /* Modern Browsers */ 
+     url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_regular.woff') format('woff'), 
+     url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_regular.ttf') format('truetype'); /* Safari, Android, iOS */ 
+     font-style: normal; font-weight: 300; text-rendering: optimizeLegibility;
+}
+@font-face { 
+    font-family: 'ZohoPuviExtraBold'; 
+    src: url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_extrabold.eot'); /* IE9 Compat Modes */ 
+    src: url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_extrabold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_extrabold.woff2') format('woff2'), /* Modern Browsers */ 
+     url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_extrabold.woff') format('woff'), 
+     url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_extrabold.ttf') format('truetype'); /* Safari, Android, iOS */ 
+     font-style: normal; font-weight: 700; text-rendering: optimizeLegibility;
+    }
+@font-face { 
+    font-family: 'ZohoPuviMedium'; 
+    src: url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_medium.eot'); /* IE9 Compat Modes */ 
+    src: url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+    url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_medium.woff2') format('woff2'), /* Modern Browsers */ 
+    url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_medium.woff') format('woff'), 
+    url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_medium.ttf') format('truetype'); /* Safari, Android, iOS */ 
+    font-style: normal; font-weight: 400; text-rendering: optimizeLegibility;
+}
+@font-face { 
+    font-family: 'ZohoPuviSemiBold'; 
+    src: url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_semibold.eot'); /* IE9 Compat Modes */ 
+    src: url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_semibold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ 
+    url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_semibold.woff2') format('woff2'), /* Modern Browsers */ 
+    url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_semibold.woff') format('woff'), 
+    url('https://fonts.zohowebstatic.com/zohopuvi/3.5/zoho_puvi_semibold.ttf') format('truetype'); /* Safari, Android, iOS */ 
+    font-style: normal; font-weight: 500; text-rendering: optimizeLegibility;
+}
+.written p{
+    font-family:'ZohoPuvi';
+    font-size:17px;
+    text-align: center;
+    text-indent:75px;
+    line-height:30px;
+}
+header img
+{
+    float:left;
+    height:82px;
+    width:177px;
+}
+header{
+    padding-top:72px;
+    padding-bottom:38px;
+}
+header,.banner{
+    margin:auto;
+    width:1130px;
+}
+.banner{
+    padding-top:15px;
+    padding-bottom:144px;
+}
+h1 div{
+    padding-bottom:15px;
+}
+.container p div{
+    padding-bottom:40px;
+}
+.container p{
+    padding-bottom:15px;
+}
+footer{
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#D3D3D3;
+    font-family:'ZohoPuvi';
+    font-size:13px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+
+.clear{
+    clear: both;
+}
+button{
+    background-color:red;
+    color:white;
+    width:188px;
+    height:41px;
+    margin-top:30px;
+    margin-left:5px;
+    border-radius:4px;
+    font-family:'ZohoPuviMedium';
+    font-size:18px;
+    text-align:center;
+    border:hidden;
+}
+.written-content{
+    width:706px;
+    font-family:'ZohoPuvi';
+    font-size:19.99px;
+}
+.written-content h1{
+    font-family:'ZohoPuviExtraBold';
+    font-size:43.98;
+}
+.written-content p{
+    width:560px;
+}
+.written{
+    margin:auto;
+    width:1130px;
+    padding-bottom:115px;
+}
+.icon-content{
+    display:flex;
+    flex-direction:row;
+}
+.content{
+    margin-right:20px;
+    width:375px;
+    padding:34px;
+    border:1px solid black;
+    margin:20px;
+    background-color: white;
+    box-shadow: 4px 4px 4px rgb(217, 212, 212);
+    height:auto;
+}
+.content img{
+    float:left;
+    width:50px;
+    height:50px;
+}
+.content h4{
+    clear:left;
+    font-family:'ZohoPuviSemiBold';
+    font-size:18px;
+    padding:10px 10px 10px 0px;
+}
+.container{
+    display:flex;
+    align-items:center;
+    justify-items:center;
+}
+.image-content img{
+    height:352px;
+    width:353px;
+}
+.heading{
+    padding-bottom:60px;
+    text-align:center;
+    font-family:'ZohoPuvi';
+    font-size:30px;
+}
+.heading span{
+    color:red;
+}
+.icons{
+    margin:auto;
+    width:1188px;
+}
+.content p{
+    font-family:'ZohoPuvi';
+    font-size:15px;
+    line-height:30px;
+}
